@@ -2,7 +2,7 @@
 
 Разведочный анализ данных (EDA) датасета на 22,6 тыс. объявлений, инженерия признаков, многомерная медианная сегментация и визуальный отчет для руководства.
 
-**Источник данных:** Moscow Housing Price Dataset (`moscow-housing-price-dataset.csv`, 22 676 строк, 12 столбцов)  
+**Источник данных:** [Moscow Housing Price Dataset (Kaggle)](https://www.kaggle.com/datasets/egorkainov/moscow-housing-price-dataset) — `moscow-housing-price-dataset.csv`, 22 676 строк, 12 столбцов  
 **Инструменты и стек:** Python, Pandas, NumPy, Matplotlib, Seaborn
 
 ---
@@ -40,9 +40,29 @@
 
 ---
 
+## Визуальный отчет
+
+![Рынок жилой недвижимости Москвы и Московской области](./images/housing_market_report.png)
+
+---
+
+## Как запустить
+
+1. Скачайте `moscow-housing-price-dataset.csv` с [Kaggle](https://www.kaggle.com/datasets/egorkainov/moscow-housing-price-dataset) и положите рядом с ноутбуком.
+2. Установите зависимости и откройте ноутбук:
+
+```bash
+pip install -r requirements.txt
+jupyter notebook real_estate_analysis.ipynb
+```
+
+---
+
 ## Структура проекта
 
 * `real_estate_analysis.ipynb` — Jupyter Notebook с полным циклом анализа и визуализацией.
+* `images/housing_market_report.png` — итоговый визуальный отчет.
+* `requirements.txt` — зависимости проекта.
 * `README.md` — описание проекта.
 
 ---
